@@ -1,0 +1,18 @@
+name: UnbreakablePortals
+main: com.alchemi.unbreakableportals.main
+author: Alchemi
+version: 1.0
+api-version: 1.13
+description: Makes the obsidian blocks for a portal unbreakable.
+softdepend: [Vault]
+
+commands:
+  unbreakableportalsbypass:
+    description: Bypass the portal unbreaking.
+    aliases: ["ubp"]
+
+permissions:
+  up.bypass:
+    description: Allows for bypassing the portal unbreaking.
+    default: false
+    

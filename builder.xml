@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SkyLeader" default="CreateJar" basedir=".">
+    <target name="CreateJar" description="Create a jar for the project">
+        <mkdir dir="target"></mkdir>
+        <jar destfile="C:/Users/Valeyard/mc-plugin-workspace/Test-Server/plugins/Unbreakable-Portals-1.0.jar">
+            <fileset dir="bin/"></fileset>
+            <fileset file="plugin.yml"></fileset>
+        </jar>
+    </target>
+</project>
